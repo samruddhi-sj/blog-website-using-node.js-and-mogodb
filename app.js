@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser:true, useUnifiedTopology:true});
+mongoose.connect("mongodb+srv://admin-samruddhi:sam@1234$@cluster0.kzap3.mongodb.net/blogDB", {useNewUrlParser:true, useUnifiedTopology:true});
 
 
 const postSchema = new mongoose.Schema({
@@ -75,7 +75,7 @@ app.get("/contact", function(req, res){
 });
 
 let port = process.env.PORT;
-if(port==NULL || port="")
+if(port==NULL || port=="")
   port=3000;
 app.listen(port);
 
