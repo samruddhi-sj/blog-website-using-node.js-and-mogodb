@@ -2,29 +2,29 @@ html {
   min-height: 100%;
   position: relative;
 }
-body{
+/* body{
   background-color: #15202b;
   color:#fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-}
-.form-control{
+} */
+/* .form-control{
   background-color: #15202b;
   border: 2px solid #ccc;
   color: #fff;
-}
+} */
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 button{
-  background-color: #1DA1F2;
-  color:#fff
+  background-color: #a6d6d6;
+  color:#000
 }
 
 .navbar {
     font-family: 'Nunito', sans-serif;
-    background-color: #192734;
+    background-color: #a7bbc7;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
@@ -34,7 +34,7 @@ button{
     letter-spacing: 5px;
 }
 .navbar-nav  li a:hover {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .footer-padding {
@@ -47,7 +47,7 @@ button{
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #8899A6;
+	background-color: #a7bbc7;
 }
 
 .footer p {
